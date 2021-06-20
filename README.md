@@ -67,6 +67,31 @@ $ npm run test:cov
  i) nestjs
  ii) postgresql
  iii) TypeOrm
- 
+
+
+```
+
+## Endpoints
+
+```bash
+
+ #Create new location (Post)
+ http://localhost:{port}/locations
+
+ #Edit Location (Put)
+ http://localhost:{port}/locations/{id}
+
+ #Delete Location (Delete)
+ http://localhost:{port}/locations/{id}
+
+ #Fetch All Locations (Get)
+ http://localhost:{port}/locations
+
+ #Fetch Specific Location(Get)
+ http://localhost:{port}/locations/{id}
+
+ #Calculate distance
+ http://localhost:{port}/locations/{id}/distance
+
 ```
 

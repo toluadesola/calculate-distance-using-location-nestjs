@@ -33,7 +33,7 @@ export class LocationsController {
         return this.locationsService.deleteLocation(id);
     }
 
-    @Get('distance/:id')
+    @Get(':id/distance')
     calculateLocationDistance(@Param('id') id: number, @Body() location: Location): Promise<number> {
         return this.locationsService.calculateLocationDistance(id, location);
     }
