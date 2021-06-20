@@ -36,7 +36,7 @@ $ npm install
 
 ```bash
 # create database
-create a postgres data and configure the .env file 
+create a postgres database and configure the .env file 
 
 # development
 $ npm run start
